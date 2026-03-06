@@ -8,19 +8,22 @@
 </head>
 <body>
     <header>
-    <nav class="header">
+    <nav class="header"> 
         <div class="headertext">Ditya Adhikari</div>
-        <div class="headerleft">
-            <ul>
-                <li><a href='#home'>Home</a></li>
-                <li><a href='#about'>About</a></li>
-                <li><a href='#projects'>Projects</a></li>
-                <li><a href='#blog'>Blogs</a></li>
-                <li><a href='#contact'>Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+        
+  <div class="headerleft">
+     <ul> 
+        <li><a href='#home'>Home</a></li>
+         <li><a href='#about'>About</a></li>
+          <li><a href='#projects'>Projects</a></li>
+           <li><a href='#blog'>Blogs</a></li> 
+           <li><a href='#contact'>Contact</a></li> 
+        </ul>
+   
+</nav>
+        
     </header>
+    
     <div class="hero">
     <div class="hero-text">
         <h1>It's Ditya</h1>
@@ -33,6 +36,7 @@
         </p>
          <button type="button" onclick="window.location.href='Work.html'">Let’s Work Together</button>
     </div>
+   
 
     <div class="hero-image">
         <img src="blogcalling/download (1).jpg" alt="pic">
@@ -51,37 +55,70 @@
             </p>
             <button type="button" onclick="window.location.href='More.html'">More About Me</button>
         </div>
-
+            
         <div class="skill">
             <h2>Professional Skillset</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>C++/C</li>
-                
-            </ul>
+           <div class="skill-list">
+  <ul>
+    <li>Javascript</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>C++</li>
+  </ul>
+</div>
         </div>
     </div>
 </div>
-    <div class="blog">
-         <h2>Blogs & Projects</h2>
-         <button type="button" onclick="window.location.href='guest.html'">Guest Writing</button>
-        <h1>comming soon</h1>
+   <div class="blog">
+    <h2>Blogs & Projects</h2>
 
+    <div class="blog-content">
+        <h2>Coming Soon</h2>
     </div>
+<button type="button" onclick="toggleGuestWriting()">
+  Guest Writing
+</button>
+
+    <div class="hidden" id="guest-writing">
+        <h2>Be a part of the journey.</h2>
+        <p>Just fill the form and wait for response.</p>
+
+        <form>
+            <div class="box">
+                <input type="text" placeholder="Enter your First Name">
+                <input type="text" placeholder="Enter your Last Name">
+                <input type="text" placeholder="Enter your Address">
+                <input type="tel" placeholder="Enter your Contact Number">
+                <input type="email" placeholder="Enter your Email">
+                <input type="message" placeholder="Enter your message">
+            </div>
+
+            <div class="box">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+       
+    </div>
+</div>
+
+<script src="guest.js"></script>
+     
+    <script src="blogcalling.js"></script>
+
+        
     <footer>
         
         <div class="footer">
            <h2>Contact</h2>
             <ul>
-              <li><a href='mailto:adhikari2186@gmail.com'>adhikari2186@gmail.com</a></li>
+              <li><a href='#'><span></span>adhikari2186@gmail.com</span></a></li>
                <li><a href='https://www.linkedin.com/in/ditya-adhikari-702581254/'>LinkedIn</a></li>
-                   <li><a href="tel:1010100100101">1010100100101</a></li>
+                   <li><a href="tel:1010100100101">98698121**</a></li>
             </ul>
-            <p>&copy; 2026 Ditya Adhikari. All rights reserved.</p>
-            <div class="socialmedia">
-                <p>add social media </p>
+            <p>&copy; 2024 Ditya Adhikari. All rights reserved.</p>
+            
+             
             </div>
         </div>
         
