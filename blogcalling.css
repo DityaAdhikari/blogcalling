@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding-left: 10px;
+  padding-left: 0px;
   
 }
 h1 {
@@ -32,6 +32,7 @@ p {
   padding: 20px 0;
   background-color: #f5f5f5;
   list-style: none;
+  margin-left: 0px;
 
 }
 
@@ -272,89 +273,4 @@ align-items: center;
 .blank{
   height:100vh;
   background-color: aqua;
-}
-
-
-/* Reset some default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #f5f5f5;
-  color: #333;
-}
-
-/* Header */
-.header {
-  background-color:  #f5f5f5;
-  color:black;
-  padding: 20px 30px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-}
-
-.header h2 {
-  font-size: 28px;
-  letter-spacing: 2px;
-}
-
-/* Page Sections */
-.body, .interest, .Contact {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px 30px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-/* Section Titles */
-.body h1, .interest h1, .Contact h1 {
-  font-size: 26px;
-  color: #111;
-  margin-bottom: 15px;
-  border-bottom: 2px solid #111;
-  display: inline-block;
-  padding-bottom: 5px;
-}
-
-/* Paragraphs */
-.body p, .interest p, .Contact p {
-  font-size: 16px;
-  margin-bottom: 15px;
-}
-
-/* Lists */
-.Contact ul {
-  list-style: none;
-  margin-top: 10px;
-  padding-left: 0;
-}
-
-.Contact li {
-  background: #f0f0f0;
-  padding: 8px 12px;
-  margin-bottom: 8px;
-  border-radius: 5px;
-}
-
-/* Responsive */
-@media (max-width: 768px){
-  .body, .interest, .Contact {
-    padding: 15px 20px;
-    margin: 20px 10px;
-  }
-
-  .header h2 {
-    font-size: 22px;
-  }
-
-  .body h1, .interest h1, .Contact h1 {
-    font-size: 20px;
-  }
 }
