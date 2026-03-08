@@ -6,12 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="blogcalling.css">
 </head>
-<body>
+<body >
     <header>
     <nav class="header"> 
         <div class="headertext">Ditya Adhikari</div>
         
-  <div class="headerleft">
+     <div class="headerleft">
      <ul> 
         <li><a href='#home'>Home</a></li>
          <li><a href='#about'>About</a></li>
@@ -19,13 +19,13 @@
            <li><a href='#blog'>Blogs</a></li> 
            <li><a href='#contact'>Contact</a></li> 
         </ul>
-   
-</nav>
+     </div>
+     </nav>
         
     </header>
-    
-    <div class="hero">
-    <div class="hero-text">
+    <div style="padding-left: 10%;padding-right: 10%;">
+         <div class="hero">
+       <div class="hero-text">
         <h1>It's Ditya</h1>
         <p>
             I believe in long-term thinking, disciplined growth,
@@ -35,13 +35,13 @@
             user-centered design.
         </p>
          <button type="button" onclick="window.location.href='Work.html'">Let’s Work Together</button>
-    </div>
+        </div>
    
 
-    <div class="hero-image">
-        <img src="blogcalling/download (1).jpg" alt="pic">
-    </div>
-</div>
+      <div class="hero-image">
+        <img src="/blogcalling/download (1).png" alt="pic">
+       </div>
+   </div>
     <div class="about section">
     <h2>About me</h2>
 
@@ -68,46 +68,42 @@
 </div>
         </div>
     </div>
-</div>
-   <div class="blog">
-    <h2>Blogs & Projects</h2>
-
-    <div class="blog-content">
-        <h2>Coming Soon</h2>
     </div>
-<button type="button" onclick="toggleGuestWriting()">
-  Guest Writing
-</button>
+    <div class="blog">
+        <h2>Blogs & Projects</h2>
 
-    <div class="hidden" id="guest-writing">
-        <h2>Be a part of the journey.</h2>
-        <p>Just fill the form and wait for response.</p>
+        <div class="blog-content">
+            <h2>Coming Soon</h2>
+        </div>
+    <button type="button" onclick="toggleGuestWriting()">
+    Guest Writing
+    </button>
 
-        <form>
-            <div class="box">
-                <input type="text" placeholder="Enter your First Name">
-                <input type="text" placeholder="Enter your Last Name">
-                <input type="text" placeholder="Enter your Address">
-                <input type="tel" placeholder="Enter your Contact Number">
-                <input type="email" placeholder="Enter your Email">
-                <input type="message" placeholder="Enter your message">
-            </div>
+        <div class="hidden" id="guest-writing">
+            <h2>Be a part of the journey.</h2>
+            <p>Just fill the form and wait for response.</p>
 
-            <div class="box">
-                <button type="submit">Submit</button>
-            </div>
-        </form>
+            <form>
+                <div class="box">
+                    <input type="text" placeholder="Enter your First Name">
+                    <input type="text" placeholder="Enter your Last Name">
+                    <input type="text" placeholder="Enter your Address">
+                    <input type="tel" placeholder="Enter your Contact Number">
+                    <input type="email" placeholder="Enter your Email">
+                    <input type="message" placeholder="Enter your message">
+                </div>
 
-       
-    </div>
-</div>
-
-<script src="guest.js"></script>
-     
-    <script src="blogcalling.js"></script>
+                <div class="box">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
 
         
-    <footer>
+        </div>
+    </div>
+    </div>
+   
+  <footer>
         
         <div class="footer">
            <h2>Contact</h2>
@@ -126,6 +122,8 @@
         </div>
        
     </footer>
-    <script src="blogcalling.js"></script>
+<script src="guest.js"></script>
+<script src="blogcalling.js"></script>
+  
 </body>
 </html>
