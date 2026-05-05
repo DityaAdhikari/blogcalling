@@ -15,6 +15,7 @@
     <title>Document</title>
     <meta name="p:domain_verify" content="1b511f3225303f2f3d7e2cd1ac373bac"/>
     <link rel="stylesheet" href="blogcalling.css">
+    
 </head>
 <body >
     <header>
@@ -36,6 +37,7 @@
     <div style="padding-left: 10%;padding-right: 10%;">
          <div class="hero">
        <div class="hero-text">
+        <section id="home">
         <h1>It's Ditya</h1>
         <p>
             I believe in long-term thinking, disciplined growth,
@@ -44,105 +46,149 @@
             foundation while exploring product thinking and
             user-centered design.
         </p>
-         <button type="button" onclick="window.location.href='Work.html'">Let’s Work Together</button>
+        <div class="hero-buttons">
+        <button class="btn" onclick="window.location.href='Work.html'">
+  Let’s Work Together
+</button>
+         </div>
         </div>
+        </section>
    
 
       <div class="hero-image">
         <img src="image/mine.jpg" alt="pic">
        </div>
    </div>
-    <div class="about section">
+  <section class="about section">
+    <section id="about">
     <h2>About me</h2>
+    </section>
 
     <div class="about-content">
+
         <div class="about-text">
             <p>
                 I am a computer engineering student focused on
-                building structured, scalable, and purposeful
-                systems.I am passionate about learning and  building things that have positive  impact on people's lives.
-               
+                building structured, scalable, and purposeful systems.
+                I am passionate about learning and building things that
+                have positive impact on people's lives.
             </p>
-            <button type="button" onclick="window.location.href='More.html'">More About Me</button>
+           <button class="btn" onclick="window.location.href='More.html'">
+  More About Me
+</button>
         </div>
-            
-        <div class="skill">
-            <h2>Professional Skillset</h2>
-           <div class="skill-list">
-  <ul>
-    <li>Javascript</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>C++</li>
-  </ul>
-</div>
-        </div>
-    </div>
-    </div>
-   
-        <div class="blog-container">
-    <h2>Blogs & Projects</h2>
 
-    <div class="blog-card">
-        <a href="blog1.html">Feeling Lost at 20? Here’s How I’m Rebuilding</a>
+        <div class="about-right">
+            <!-- your skillset section -->
+            <h1 class="title">Professional Skillset</h1>
 
-        <div class="image">
-            <img src="image/blog1image.jpg" alt="Rebuilding Image">
-        </div>
-    </div>
-
-   
-</div>
-        
-          
-     <div class="guest_writing">       
-    <button type="button" onclick="toggleGuestWriting()">
-    Guest Writing
-    </button>
-</div>
-        <div class="hidden" id="guest-writing">
-            <h2>Be a part of the journey.</h2>
-            <p>Just fill the form and wait for response.</p>
-
-            <form>
-                <div class="box">
-                    <input type="text" placeholder="Enter your First Name">
-                    <input type="text" placeholder="Enter your Last Name">
-                    <input type="text" placeholder="Enter your Address">
-                    <input type="tel" placeholder="Enter your Contact Number">
-                    <input type="email" placeholder="Enter your Email">
-                    <input type="message" placeholder="Enter your message">
+            <div class="grid">
+                <div class="card">
+                    <h2>Frontend</h2>
+                    <p>HTML, CSS, JavaScript</p>
                 </div>
 
-                <div class="box">
-                    <button type="submit">Submit</button>
+                <div class="card">
+                    <h2>Programming</h2>
+                    <p>C++, Problem Solving</p>
                 </div>
-            </form>
 
-        
-        </div>
-    </div>
-    </div>
-  
-  <footer>
-        
-        <div class="footer">
-           <h2>Contact</h2>
-            <ul>
-              <li><a href='#'><span></span>adhikari2186@gmail.com</span></a></li>
-               <li><a href='https://www.linkedin.com/in/ditya-adhikari-702581254/'>LinkedIn</a></li>
-                   <li><a href="tel:1010100100101">*******</a></li>
-            </ul>
-            <p>&copy; 2024 Ditya Adhikari. All rights reserved.</p>
-            
-             
+                <div class="card">
+                    <h2>Tools</h2>
+                    <p>Git, GitHub, VS Code</p>
+                </div>
+
+                <div class="card">
+                    <h2>UI/UX</h2>
+                    <p>Wireframing, User Experience Basics</p>
+                </div>
             </div>
+
+            <h1 class="title">Blogs</h1>
+            <div class="blogs">
+                <div class="blog">Feeling Lost at 20? Here’s How I’m Rebuilding</div>
+                <div class="blog">Soft Discipline: Showing Up When Motivation Dies</div>
+                <div class="blog">Seen but Not Said: The Silent Pressure of Starting Over</div>
+            </div>
+
+            <h1 class="title">Currently Learning</h1>
+            <ul class="learning">
+                <li>UI/UX Design</li>
+                <li>Advanced JavaScript</li>
+                <li>Responsive Web Design</li>
+            </ul>
         </div>
-        
-        
-        </div>
-       
-    </footer>
+
+    </div>
+</section>
+ 
+
+    
+   <div class="blog">
+        <div class="blog-container">
+            <section id="blog">
+    <h2>Blogs </h2>
+ </section>
+   <div class="blog-container">
+  
+  <div class="blog-card">
+    <a href="blog1.html">Feeling Lost at 20? Here’s How I’m Rebuilding</a>
+    <div class="image">
+      <img src="image/blog1.png" alt="Rebuilding Image">
+    </div>
+  </div>
+
+  <div class="blog-card">
+    <a href="blog2.html">Soft Discipline: How I Stopped Hustling and Started Showing Up</a>
+    <div class="image">
+      <img src="image/blog2.png" alt="Rebuilding Image">
+    </div>
+  </div>
+
+</div>
+
+           
+</div>
+  </div>      
+     <div class="guest_writing">       
+  <button class="btn open-popup">
+  Guest Writing
+</button>
+</div>
+
+<div class="hidden" id="guest-writing">
+  <button class="close">✖</button>
+
+  <h2>Be a part of the journey.</h2>
+  <p>Just fill the form and wait for response.</p>
+
+  <form>
+    <div class="box">
+      <input type="text" placeholder="First Name">
+      <input type="text" placeholder="Last Name">
+      <input type="text" placeholder="Address">
+      <input type="tel" placeholder="Contact Number">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Your message"></textarea>
+    </div>
+
+    <div class="box">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>
+ <footer>
+  <div class="footer">
+    <h2>Contact</h2>
+
+    <p>adhikari2186@gmail.com</p>
+    <a href="https://www.linkedin.com/in/ditya-adhikari-702581254/" target="_blank">LinkedIn</a>
+
+    <p class="copyright">
+      © 2024 Ditya Adhikari. All rights reserved.
+    </p>
+  </div>
+</footer>
 <script src="guest.js"></script>
 <script src="blogcalling.js"></script>
   

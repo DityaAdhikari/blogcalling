@@ -1,0 +1,18 @@
+body{
+    margin-left: 50px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+.blog2_image img  {
+    width: 100%;
+    max-width: 200px;  
+    height:auto;
+    display: block;
+    margin: 70px 200px;
+    border-radius: 10px;
+    align-items: left;
+
+}
