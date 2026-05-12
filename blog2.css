@@ -16,3 +16,11 @@ body{
     align-items: left;
 
 }
+.header_blog2 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: rgb(180, 168, 168);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}

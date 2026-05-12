@@ -1,7 +1,7 @@
 body {
     font-family: 'Georgia', serif;
     background-color: #f7f7f7;
-    margin: 0 20px;
+    margin: 20px 20px;
     padding: 0;
     color: #222;
     display: inline;
@@ -32,7 +32,7 @@ header h1 {
     max-width: 800px;
     margin: 50px auto;
     padding: 40px;
-    background: white;
+    background: rgb(180, 168, 168);
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
